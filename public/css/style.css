@@ -1,0 +1,165 @@
+html{
+    min-height: 100vh;
+    max-width: 99%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+    border: 2px solid black;
+    display: flex;
+}
+
+.navimg img{
+    height: 100px;
+    width: 200px;
+}
+
+.nav{
+    display: flex;
+    margin: auto;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 0 10px 0 40px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    transition: .5s;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.header{
+    width: 100%;
+    height: 85vh;
+    border: 2px solid black;
+    display: flex;
+}
+
+.header_text{
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.header_text h1{
+   font-size: 40px;
+   color: rgb(100, 16, 5);
+}
+
+.header_text p{
+    font-size: 20px;
+}
+
+.header_text a{
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: rgb(27, 144, 247);
+    transition: .4s;
+}
+
+.header_text a:hover{
+    cursor: pointer;
+    background-color: rgb(101, 101, 222);
+}
+
+.header_img{
+    width: 50%;
+    text-align: center;
+}
+
+.header_img img{
+    width: 80%;
+    height: 70%;
+    margin-top: 10%;
+}
+
+.about{
+    width: 100%;
+    height: 65vh;
+}
+
+.content{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.content p{
+    font-size: 40px;
+}
+
+.whether_form{
+    width: 100%;
+    height: 70vh;
+    border: 2px solid red;
+}
+
+.form{
+   text-align: center;
+   border: 2px solid black;
+   height: 50%;
+   width: 30%;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 10px;
+}
+
+.form input{
+   font-size: 20px;
+   padding: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.form input:hover{
+   border: 2px solid brown;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(142, 142, 161);
+    transition: .4s;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(130, 130, 140);
+    color: rgb(4, 4, 61);
+}
+
+.footer{
+    background-color: beige;
+}
+
+.footertext{
+    text-align: center;
+}
+
+.footertext p{
+    font-size: 20px;
+}
